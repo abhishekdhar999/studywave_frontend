@@ -14,13 +14,148 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    /* --background: #0a0a0a; */
     --foreground: #ededed;
   }
 }
 
+/* <style> */
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=DynaPuff:wght@400..700&family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Kablammo&family=Permanent+Marker&family=Teko:wght@300..700&display=swap');
+/* </style> */
 body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+#zmmtg-root {
+  z-index: 9999 !important;
+  position: relative;
+}
+
+
+.image-textS {
+  
+  font-size: 14vw;
+  background-image: url('/back1.webp');
+  background-size: cover;
+   background-position: right; 
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  text-align: center;
+  
+}
+.image-textT {
+  
+  font-size: 14vw;
+  background-image: url('/back2.webp');
+  background-size: cover;
+  background-position: left;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  text-align: center;
+  
+}
+.image-textU {
+  
+  font-size: 14vw;
+  background-image: url('/back3.avif');
+  background-size: cover;
+   background-position:right; 
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  text-align: center;
+  
+}
+.image-textD {
+  
+  font-size: 14vw;
+  background-image: url('/back4.webp');
+  background-size: cover;
+  background-position: right;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  text-align: center;
+  
+}
+.image-textY {
+  
+  font-size: 14vw;
+  background-image: url('/back5.jpeg');
+  background-size: cover;
+  background-position: center;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  text-align: center;
+  
+}
+.image-textW {
+  
+  font-size: 14vw;
+  background-image: url('/back6.jpeg');
+  background-size: cover;
+  /* background-position: center; */
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  text-align: center;
+  
+}
+.image-textA {
+  
+  font-size: 14vw;
+  background-image: url('/back7.jpeg');
+  background-size: cover;
+  /* background-position: center; */
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  text-align: center;
+  
+}
+.image-textV {
+  
+  font-size: 14vw;
+  background-image: url('/back8.webp');
+  background-size: cover;
+  background-position: right;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  text-align: center;
+  
+}
+.image-textE {
+  
+  font-size: 14vw;
+  background-image: url('/back9.jpg');
+  background-size: cover;
+  background-position: center;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  text-align: center;
+  
+}
+
+@layer utilities {
+  @keyframes carousel {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+
+  .animate-carousel {
+    /* display: inline-block; */
+  white-space: nowrap;
+  will-change: transform;
+    animation: carousel 8s linear infinite;
+  }
 }
