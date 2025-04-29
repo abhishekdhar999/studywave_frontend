@@ -57,7 +57,7 @@ export default function TodayClasses() {
             </p>
           </div>
 
-<div className="flex justify-center gap-24 m-12">
+<div className="flex justify-center md:gap-24 gap-6 m-12 md:flex-row flex-col">
           <div className="w-46 h-16 bg-green-300 border-2 border-black  text-black rounded-full text-center flex justify-center items-center text-xl">
   About us
 </div>
@@ -136,7 +136,7 @@ export default function TodayClasses() {
     />
   </div>
 
-  {/* First image */}
+  {/* First image duplicate */}
   <div className="relative min-w-[200px] w-[140vw] h-80 bg-rose-300 rounded-t-full overflow-hidden">
     <img
       src="/one.png"
@@ -205,7 +205,7 @@ export default function TodayClasses() {
         </div> */}
 
         {/* Today's Classes Cards */}
-        <div className="p-6">
+        <div className="">
           {todayClasses.length > 0 ? (
             <div className="">
               {todayClasses.map(cls => (

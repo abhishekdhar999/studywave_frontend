@@ -309,7 +309,7 @@ style={{ fill: "#231e23" }}
             <div>15</div>
         </li>
     </ul> */}
-    <div className="p-4 border-t mx-8 mt-2 flex justify-center gap-24">
+    <div className="p-4 border-t mx-8 mt-2 flex justify-center md:gap-24 md:flex-row flex-col">
     <div type="button" className={`text-gray-900 bg-gradient-to-r from-red-200 via-red-300 to-yellow-200 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-red-100 dark:focus:ring-red-400 font-medium rounded-lg  px-5 py-2.5 text-center me-2 mb-2 text-xl`}>meeting</div>
 
     <div type="button" className="text-gray-900 bg-gradient-to-r from-red-200 via-red-300 to-yellow-200 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-red-100 dark:focus:ring-red-400 font-medium rounded-lg text-xl px-5 py-2.5 text-center me-2 mb-2">whiteboard</div>
