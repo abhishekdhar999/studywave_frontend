@@ -2,6 +2,7 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,7 +10,15 @@
     "lint": "next lint"
   },
   "dependencies": {
+<<<<<<< HEAD
     "framer-motion": "^12.6.2",
+=======
+    "@next/font": "^14.2.15",
+    "@zoom/meetingsdk": "^3.12.0",
+    "@zoomus/websdk": "^2.18.3",
+    "axios": "^1.8.4",
+    "jsonwebtoken": "^9.0.2",
+>>>>>>> c8db2762dd1364b1427013465f8840d3f607998f
     "next": "15.2.2",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
